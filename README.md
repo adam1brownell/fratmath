@@ -6,3 +6,5 @@ This repo helps calculate the ELO of a 2-player teams in a 2 team game. Can acce
 _Real names were replaced with animals_
 
 I'll add examples later. Requires `secret_key.json` from GSheet API which I'll link to a tutorial also later
+
+![elo visual](https://github.com/adam1brownell/fratmath/blob/main/ELOvisual.png?raw=true)

@@ -555,11 +555,6 @@ if __name__ == "__main__":
 	for player in current_elo.keys():
 	    p = charting_elo[player]
 	    
-	    # find when they began playing
-	    for val in p.values:
-	        if val == 1000:
-	            break
-	        i += 1
 	    try:
 	        y = p.replace(to_replace="",value=np.nan).interpolate(method='polynomial', order=2)
 	    except:
